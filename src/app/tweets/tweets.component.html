@@ -1,7 +1,7 @@
 <h3>Tweet</h3>
 <div class="row tweetContainer" *ngFor="let tweet of tweets">
   <div class="col-1">
-    <img [src]="tweet.profilepic"   class="profileepic" />
+    <img [src]="tweet.profilepic" class="profileepic" />
   </div>
   <div class="col-11">
     <div class="unameContainer">
@@ -13,7 +13,7 @@
     <div class="social">
       <div class="row">
         <div class="col-3">{{ tweet.comment }}</div>
-        <div class="col-3">{{ tweet.retweets }}</div>
+        <div class="col-3"><retweet></retweet>{{ tweet.retweets }}</div>
         <div class="col-3"><like></like>{{ tweet.likes }}</div>
         <div class="col-3">share</div>
       </div>

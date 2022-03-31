@@ -7,6 +7,7 @@ import { MenuComponent } from './menu/menu.component';
 import { TweetsComponent } from './tweets/tweets.component';
 import { RecoComponent } from './reco/reco.component';
 import { LikeComponent } from './like/like.component';
+import { RetweetComponent } from './retweet/retweet.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { LikeComponent } from './like/like.component';
     MenuComponent,
     TweetsComponent,
     RecoComponent,
-    LikeComponent
+    LikeComponent,
+    RetweetComponent
   ],
   imports: [
     BrowserModule,
